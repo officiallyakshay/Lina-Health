@@ -8,7 +8,7 @@ function Calendar() {
         <h3 style={{ marginTop: '-5px', fontSize: '25px' }}>Appointments</h3>
       </div>
       <div className="apptbuttonholder">
-        <div className="apptbuttons">
+        <div className="apptbuttonsall">
           <p>All</p>
         </div>
         <div className="apptbuttonsmedical">
@@ -30,30 +30,30 @@ function Calendar() {
               </p>
               <p className="appointmentDr">
                 Assessment with Dr. Esho
-                <div style={{ fontWeight: '400', fontSize: '16px' }}>
+                <div className="appointmentDrTime">
                   10:00 AM - 11:00 AM
                 </div>
               </p>
             </div>
             <div style={{ float: 'right', display: 'flex', fontWeight: '300' }}>
-              <p style={{ marginLeft: '5px', marginTop: '-0.5px' }}>Medical</p>
+              <p style={{ marginLeft: '5px', marginTop: '-27.5px' }}>Medical</p>
             </div>
           </button>
 
           <button className="actButton">
             <div style={{ display: 'flex' }}>
               <p className="appointmentDate">
-                18 <br /> TUE
+                29 <br /> FRI
               </p>
               <p className="appointmentDr">
-                Assessment with Dr. Esho
-                <div style={{ fontWeight: '400', fontSize: '16px' }}>
-                  10:00 AM - 11:00 AM
+                Checkup with Dr. Esho
+                <div className="appointmentDrTime">
+                  05:00 PM - 06:00 PM
                 </div>
               </p>
             </div>
             <div style={{ float: 'right', display: 'flex', fontWeight: '300' }}>
-              <p style={{ marginLeft: '5px', marginTop: '-0.5px' }}>Medical</p>
+              <p style={{ marginLeft: '5px', marginTop: '-27.5px' }}>Coaching</p>
             </div>
           </button>
         </div>
@@ -68,29 +68,29 @@ function Calendar() {
               </p>
               <p className="appointmentDr">
                 Assessment with Dr. Esho
-                <div style={{ fontWeight: '400', fontSize: '16px' }}>
+                <div className='appointmentDrTime'>
                   10:00 AM - 11:00 AM
                 </div>
               </p>
             </div>
             <div style={{ float: 'right', display: 'flex', fontWeight: '300' }}>
-              <p style={{ marginLeft: '5px', marginTop: '-0.5px' }}>Medical</p>
+              <p style={{ marginLeft: '5px', marginTop: '-27.5px' }}>Medical</p>
             </div>
           </button>
           <button className="actButton">
             <div style={{ display: 'flex' }}>
               <p className="appointmentDate">
-                18 <br /> TUE
+                29 <br /> FRI
               </p>
               <p className="appointmentDr">
-                Assessment with Dr. Esho
-                <div style={{ fontWeight: '400', fontSize: '16px' }}>
-                  10:00 AM - 11:00 AM
+                Checkup with Dr. Esho
+                <div className="appointmentDrTime">
+                  05:00 PM - 06:00 PM
                 </div>
               </p>
             </div>
             <div style={{ float: 'right', display: 'flex', fontWeight: '300' }}>
-              <p style={{ marginLeft: '5px', marginTop: '-0.5px' }}>Medical</p>
+              <p style={{ marginLeft: '5px', marginTop: '-27.5px' }}>Coaching</p>
             </div>
           </button>
         </div>
