@@ -3,13 +3,16 @@ import './App.css';
 
 function Home() {
   return (
-    <div>
+    <div className="home">
       <div className="welcome">
         <h5>Welcome</h5>
         <h3 style={{ marginTop: '-15px' }}>John</h3>
       </div>
       <div className="bookyourcoach">
-        <button> Book your coach </button>
+        <button className="coachButton"> 
+          <p className="onboarding">Onboarding</p>
+          <p className="coachtext"> Book your <br/> coach </p>
+        </button>
       </div>
       <div className="todaysActivities">
         <h5>Today's Activities</h5>

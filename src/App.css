@@ -1,8 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+.home {
+  padding: 15px;
+}
+
 .welcome {
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .bookyourcoach {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.coachButton {
+  /* padding: 45px; */
+  border-radius: 15px;
+  background-color: #52575B;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+.onboarding {
+  border-radius: 15px;
+  color: #353535;
+  font-weight: 700;
+  background-color: white;
+  width: 30%;
+  padding: 3px;
+}
+
+.coachtext {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: start;
+  margin-bottom: 10px;
   
 }
 
