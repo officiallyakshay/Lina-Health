@@ -10,6 +10,14 @@
   padding: 35px;
 }
 
+.profile {
+  padding: 35px;
+}
+
+.walk {
+  padding: 35px;
+}
+
 .welcome {
   
 }
@@ -28,6 +36,28 @@
   margin-top: -15px;
 }
 
+.youtubediv {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.youtubebutton {
+  border-radius: 15px;
+  background-color: #e5e5e5;
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  margin-top: -15px;
+  border: none;
+}
+
+.youtubeplay {
+  color: #000000;
+  font-weight: 700;
+  font-size: 50px;
+  /* margin-bottom: 10px; */
+}
+
 .onboarding {
   border-radius: 15px;
   color: #353535;
@@ -44,6 +74,37 @@
   font-size: 30px;
   text-align: start;
   margin-bottom: 10px;
+  margin-left: 5px;
+  letter-spacing: -0.03em;
+}
+
+.coachmessagebutton {
+  border-radius: 15px;
+  background-color: #CECECE;
+  display: block;
+  margin: 10px 0;
+  width: 100%;
+  margin-top: 30px;
+  border: none;
+}
+
+.coachmessage1 {
+  color: #FFFFFF;
+  font-weight: 700;
+  font-size: 30px;
+  text-align: start;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  letter-spacing: -0.03em;
+}
+
+.coachmessage2 {
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: start;
+  margin-bottom: 21px;
   margin-left: 5px;
   letter-spacing: -0.03em;
 }
@@ -101,6 +162,14 @@
   margin: auto;
   margin-top: 5px;
   height: 70px;
+}
+
+.markascompleted {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  border-radius: 55px;
+  margin: auto;
 }
 
 .navbarInactive {

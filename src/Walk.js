@@ -2,17 +2,25 @@ import React from 'react';
 import './App.css';
 import BottomNav from './BottomNav';
 
-function Home() {
+function Walk() {
   return (
-    <div className="home">
+    <div className="walk">
       <div className="welcome">
-        <p style={{ fontWeight: '400', fontSize: '14px' }}>Welcome</p>
-        <h3 style={{ marginTop: '-5px', fontSize: '25px' }}>John</h3>
+        <div style={{ display: 'flex' }}>
+          <a href='/'>Back arrow</a>
+          <p style={{ marginTop: '0px', marginLeft: 'auto', color: '#b2b2b2' }}>Cardio</p>
+        </div>
+      </div>
+      <h3 style={{ marginTop: '-5px', fontSize: '25px' }}>Walk for 10 minutes</h3>
+      <div className="youtubediv">
+        <button className="youtubebutton"> 
+          <p className="youtubeplay"> ▶ </p>
+        </button>
       </div>
       <div className="bookyourcoach">
-        <button className="coachButton"> 
-          <p className="onboarding">Onboarding</p>
-          <p className="coachtext"> Book your <br/> coach </p>
+        <button className="coachmessagebutton"> 
+          <p className="coachmessage1"> Coach Message </p>
+          <p className="coachmessage2"> Lorem ipsum dolor sit amet consectetur. Get your heart <br /> rate up to burn energy </p>
         </button>
       </div>
       <div className="todaysActivities">
@@ -46,9 +54,11 @@ function Home() {
           </button>
         </div>
       </div>
-    <BottomNav />
+      <div className="markascompleted">
+        <p style={{ marginTop: '21px' }}>Mark as Completed</p>
+      </div>
     </div>
   );
 }
 
-export default Home;
+export default Walk;
