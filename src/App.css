@@ -1,11 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:&display=swap');
 
 * {
   font-family: 'Poppins', sans-serif;
 }
 
 .home {
-  padding: 15px;
+  padding: 35px;
 }
 
 .welcome {
@@ -34,6 +34,7 @@
   background-color: white;
   width: 30%;
   padding: 3px;
+  margin-left: 5px;
 }
 
 .coachtext {
@@ -42,11 +43,50 @@
   font-size: 30px;
   text-align: start;
   margin-bottom: 10px;
-  
+  margin-left: 5px;
 }
 
 .todaysActivities {
 
+}
+
+.actButtonGreen {
+  background-color: #F0F0F0;
+  border-radius: 15px;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  height: 100px;
+  border: 3px solid lightgreen;
+}
+
+.actButton {
+  background-color: #F0F0F0;
+  border-radius: 15px;
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+  height: 100px;
+  border: none;
+}
+
+.actButtonText {
+  text-align: left;
+  font-size: 14px;
+  padding-top: 30px;
+  font-weight: 700; 
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+.actButtonText2 {
+  text-align: left;
+  font-weight: 100;
+  font-size: 11px;
+  margin-top: -7px;
+  margin-left: 5px;
 }
 
 .navbar {

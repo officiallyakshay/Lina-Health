@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import BottomNav from './BottomNav';
 
 function Home() {
   return (
@@ -17,23 +18,27 @@ function Home() {
       <div className="todaysActivities">
         <h5>Today's Activities</h5>
         <div>
-          <button>Walk for 30 minutes</button>
-          <button>Only eat between 12pm and 8pm</button>
-          <button>Track meals in MyFitnessPal</button>
+          <button className="actButton">
+            <p className="actButtonText">
+              Walk for 10 minutes
+            </p>
+            <p className="actButtonText2">Cardio</p>
+          </button>
+          <button className="actButtonGreen">
+            <p className="actButtonText">
+              Only eat between 12pm and 8pm
+            </p>
+            <p className="actButtonText2">Nutrition</p>
+          </button>
+          <button className="actButton">
+            <p className="actButtonText">
+              Track meals in MyFitnessPal
+            </p>
+            <p className="actButtonText2">Calorie's Counting</p>
+          </button>
         </div>
       </div>
-      <div className="navbar">
-        <a href="/">
-          <p>Home</p>
-        </a>
-        <a href="/calendar">
-          <p>Calendar</p>
-        </a>
-        <a href="/profile">
-          <p>Profile</p>
-        </a>
-        {/* navbar */}
-      </div>
+      <BottomNav />
     </div>
   );
 }

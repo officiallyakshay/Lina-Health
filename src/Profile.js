@@ -1,8 +1,12 @@
 import React from 'react';
+import BottomNav from './BottomNav';
 
 function Profile() {
   return (
-    <h5>Hello from Profile</h5>
+    <div>
+      <h5>Hello from Profile</h5>
+      <BottomNav />
+    </div>
   );
 }
 

@@ -1,8 +1,12 @@
 import React from 'react';
+import BottomNav from './BottomNav';
 
 function Calendar() {
   return (
-    <h5>Hello from Calendar</h5>
+    <div>
+      <h5>Hello from Calendar</h5>
+      <BottomNav />
+    </div>
   );
 }
 
