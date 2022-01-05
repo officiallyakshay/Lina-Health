@@ -4,15 +4,24 @@ import './App.css';
 function BottomNav() {
   return (
     <div className="navbar">
-      <a href="/">
-        <p>Home</p>
-      </a>
-      <a href="/calendar">
-        <p>Calendar</p>
-      </a>
-      <a href="/profile">
-        <p>Profile</p>
-      </a>
+      <div className="innerNavBar">
+        <a href="/">
+          <span class="dot"></span>
+          <p>Home</p>
+        </a>
+      </div>
+      <div className="innerNavBar2">
+        <a href="/calendar">
+          <span class="dot"></span>
+          <p>Calendar</p>
+        </a>
+      </div>
+      <div className="innerNavBar">
+        <a href="/profile">
+          <span class="dot"></span>
+          <p>Profile</p>
+        </a>
+      </div>
     </div>
   );
 }

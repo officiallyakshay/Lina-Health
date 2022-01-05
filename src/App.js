@@ -6,8 +6,6 @@ import NavbarRoutes from './NavbarRoutes';
 function App() {
   return (
     <div>
-      <hr />
-      {/* <Home /> */}
       <NavbarRoutes />
     </div>
   );

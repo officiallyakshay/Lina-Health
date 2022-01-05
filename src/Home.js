@@ -6,8 +6,8 @@ function Home() {
   return (
     <div className="home">
       <div className="welcome">
-        <h5>Welcome</h5>
-        <h3 style={{ marginTop: '-15px' }}>John</h3>
+        <p style={{ fontWeight: '400', fontSize: '14px' }}>Welcome</p>
+        <h3 style={{ marginTop: '-5px', fontSize: '25px' }}>John</h3>
       </div>
       <div className="bookyourcoach">
         <button className="coachButton"> 
@@ -16,13 +16,19 @@ function Home() {
         </button>
       </div>
       <div className="todaysActivities">
-        <h5>Today's Activities</h5>
+        <p style={{ fontWeight: '700', fontSize: '18px' }}>Today's Activities</p>
         <div>
           <button className="actButton">
             <p className="actButtonText">
               Walk for 10 minutes
             </p>
-            <p className="actButtonText2">Cardio</p>
+            <p className="actButtonText2">
+              Cardio
+              <div style={{ float: 'right', display: 'flex' }}>
+                <span class="dot"></span>
+                <p style={{ marginLeft: '5px', marginTop: '-0.5px' }}>10 mins</p>
+              </div>
+            </p>
           </button>
           <button className="actButtonGreen">
             <p className="actButtonText">
@@ -38,7 +44,7 @@ function Home() {
           </button>
         </div>
       </div>
-      <BottomNav />
+    <BottomNav />
     </div>
   );
 }

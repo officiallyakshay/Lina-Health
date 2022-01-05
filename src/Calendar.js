@@ -3,9 +3,46 @@ import BottomNav from './BottomNav';
 
 function Calendar() {
   return (
-    <div>
-      <h5>Hello from Calendar</h5>
-      <BottomNav />
+    <div className="calendar">
+      <div className="appointments">
+        <h3 style={{ marginTop: '-5px', fontSize: '25px' }}>Appointments</h3>
+      </div>
+      <div className="bookyourcoach">
+        <button className="coachButton"> 
+          <p className="onboarding">Onboarding</p>
+          <p className="coachtext"> Book your <br/> coach </p>
+        </button>
+      </div>
+      <div className="todaysActivities">
+        <p style={{ fontWeight: '700', fontSize: '18px' }}>Today's Activities</p>
+        <div>
+          <button className="actButton">
+            <p className="actButtonText">
+              Walk for 10 minutes
+            </p>
+            <p className="actButtonText2">
+              Cardio
+              <div style={{ float: 'right', display: 'flex' }}>
+                <span class="dot"></span>
+                <p style={{ marginLeft: '5px', marginTop: '-0.5px' }}>10 mins</p>
+              </div>
+            </p>
+          </button>
+          <button className="actButtonGreen">
+            <p className="actButtonText">
+              Only eat between 12pm and 8pm
+            </p>
+            <p className="actButtonText2">Nutrition</p>
+          </button>
+          <button className="actButton">
+            <p className="actButtonText">
+              Track meals in MyFitnessPal
+            </p>
+            <p className="actButtonText2">Calorie's Counting</p>
+          </button>
+        </div>
+      </div>
+    <BottomNav />
     </div>
   );
 }
