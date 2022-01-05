@@ -198,6 +198,17 @@
   justify-content: center;
   border-radius: 55px;
   margin: auto;
+  margin-top: 75px;
+}
+
+.viewplaybook {
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  border-radius: 55px;
+  margin: auto;
+  margin-top: 35px;
+  width: 50%;
 }
 
 .apptbuttonholder {
@@ -274,6 +285,21 @@ a > span {
   display: inline-block;
 }
 
+#profilepic {
+  height: 65px;
+  width: 65px;
+  background-color: #C4C4C4;
+  border-radius: 50%;
+  display: table;
+  margin: 0 auto;
+}
+
+.profilename {
+  text-align: center;
+  font-weight: 700;
+  font-size: 20px;
+}
+
 a {
   text-decoration: none;
   color: #646464;
@@ -296,4 +322,22 @@ div > span {
   display: inline-block;
   margin-top: 1px;
   background-color: rgb(203, 201, 201);
+}
+
+.walkinfo2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.profilegoals {
+  text-align: center;
+  font-weight: 700;
+  line-height: 35px;
+  font-size: 21px;
+}
+
+.profilegoals2 {
+  font-weight: 400;
+  font-size: 12px;
+  margin-top: -25px;
 }
