@@ -7,38 +7,91 @@ function Calendar() {
       <div className="appointments">
         <h3 style={{ marginTop: '-5px', fontSize: '25px' }}>Appointments</h3>
       </div>
-      <div className="bookyourcoach">
-        <button className="coachButton"> 
-          <p className="onboarding">Onboarding</p>
-          <p className="coachtext"> Book your <br/> coach </p>
-        </button>
+      <div className="apptbuttonholder">
+        <div className="apptbuttons">
+          <p>All</p>
+        </div>
+        <div className="apptbuttonsmedical">
+          <p>Medical</p>
+        </div>
+        <div className="apptbuttons">
+          <p>Coaching</p>
+        </div>
+      </div>
+      <div className="date">
+        September 2022
       </div>
       <div className="todaysActivities">
-        <p style={{ fontWeight: '700', fontSize: '18px' }}>Today's Activities</p>
-        <div>
+        <div className="appointmentCards">
           <button className="actButton">
-            <p className="actButtonText">
-              Walk for 10 minutes
-            </p>
-            <p className="actButtonText2">
-              Cardio
-              <div style={{ float: 'right', display: 'flex' }}>
-                <span class="dot"></span>
-                <p style={{ marginLeft: '5px', marginTop: '-0.5px' }}>10 mins</p>
-              </div>
-            </p>
+            <div style={{ display: 'flex' }}>
+              <p className="appointmentDate">
+                18 <br /> TUE
+              </p>
+              <p className="appointmentDr">
+                Assessment with Dr. Esho
+                <div style={{ fontWeight: '400', fontSize: '16px' }}>
+                  10:00 AM - 11:00 AM
+                </div>
+              </p>
+            </div>
+            <div style={{ float: 'right', display: 'flex', fontWeight: '300' }}>
+              <p style={{ marginLeft: '5px', marginTop: '-0.5px' }}>Medical</p>
+            </div>
           </button>
-          <button className="actButtonGreen">
-            <p className="actButtonText">
-              Only eat between 12pm and 8pm
-            </p>
-            <p className="actButtonText2">Nutrition</p>
+
+          <button className="actButton">
+            <div style={{ display: 'flex' }}>
+              <p className="appointmentDate">
+                18 <br /> TUE
+              </p>
+              <p className="appointmentDr">
+                Assessment with Dr. Esho
+                <div style={{ fontWeight: '400', fontSize: '16px' }}>
+                  10:00 AM - 11:00 AM
+                </div>
+              </p>
+            </div>
+            <div style={{ float: 'right', display: 'flex', fontWeight: '300' }}>
+              <p style={{ marginLeft: '5px', marginTop: '-0.5px' }}>Medical</p>
+            </div>
+          </button>
+        </div>
+        <div className="date">
+          December 2022
+        </div>
+        <div className="appointmentCards">
+        <button className="actButton">
+            <div style={{ display: 'flex' }}>
+              <p className="appointmentDate">
+                18 <br /> TUE
+              </p>
+              <p className="appointmentDr">
+                Assessment with Dr. Esho
+                <div style={{ fontWeight: '400', fontSize: '16px' }}>
+                  10:00 AM - 11:00 AM
+                </div>
+              </p>
+            </div>
+            <div style={{ float: 'right', display: 'flex', fontWeight: '300' }}>
+              <p style={{ marginLeft: '5px', marginTop: '-0.5px' }}>Medical</p>
+            </div>
           </button>
           <button className="actButton">
-            <p className="actButtonText">
-              Track meals in MyFitnessPal
-            </p>
-            <p className="actButtonText2">Calorie's Counting</p>
+            <div style={{ display: 'flex' }}>
+              <p className="appointmentDate">
+                18 <br /> TUE
+              </p>
+              <p className="appointmentDr">
+                Assessment with Dr. Esho
+                <div style={{ fontWeight: '400', fontSize: '16px' }}>
+                  10:00 AM - 11:00 AM
+                </div>
+              </p>
+            </div>
+            <div style={{ float: 'right', display: 'flex', fontWeight: '300' }}>
+              <p style={{ marginLeft: '5px', marginTop: '-0.5px' }}>Medical</p>
+            </div>
           </button>
         </div>
       </div>
